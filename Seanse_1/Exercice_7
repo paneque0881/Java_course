@@ -1,0 +1,26 @@
+package Seance_1;
+import java.util.Scanner;
+
+public class Exercice_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//	7-Écrire en JAVA : calcul du  quotient et du reste d’une division entière définie par
+		// la relation arithmétique:  x =y*q +r 
+		
+		int x, y, q, r;
+		System.out.println("Enter the dividend x from a division");
+		Scanner entry_dividend = new Scanner(System.in);
+		x = entry_dividend.nextInt();
+		
+		System.out.println("Enter the divisor y from a division");
+		Scanner entry_divisor = new Scanner(System.in);
+		y = entry_divisor.nextInt();
+		
+		q = x/y;
+		r = x%y;
+		
+		System.out.println("The division of " +x+ "/" +y+ " give as a result a quotient " +q+ " and a remainder " +r);
+	}
+
+}
