@@ -1,0 +1,14 @@
+package Seance_1;
+
+
+public class Exercice_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//8-Écrire en JAVA : calcul du dernier terme et la somme des termes d’une progression arithmétique ( connaissant le premier terme a, 
+		//la raison r d’une progression arithmétique de n termes. Le dernier terme I et la somme  s des termes de la  progression par 
+		//les formules suivantes:    I = a + ( n- 1) *r  et   s =  n*(2a + (n - 1) * r) / 2
+
+	}
+
+}
