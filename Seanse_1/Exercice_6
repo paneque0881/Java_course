@@ -1,0 +1,25 @@
+package Seance_1;
+import java.util.Scanner;
+
+public class Exercice_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 6-Écrire la marche à suivre pour calculer la surface d’un cercle 
+		//( déterminer les objets à manipuler + les actions à faire). La contrainte est
+		//donnée par la formule: Surface = Pi*Rayon*Rayon. Traduire l’algorithme en programme JAVA
+
+		//Objects: --> Variables
+		double Area, radius;
+		
+		System.out.println("Enter the radius of the circle:");
+		Scanner entry_radius = new Scanner(System.in);
+		radius = entry_radius.nextDouble();
+		
+		Area = Math.PI*radius*radius;
+		
+		System.out.println("The surface of the circle of radius " +radius+ " is " +Area);
+		
+	}
+
+}
