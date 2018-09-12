@@ -1,0 +1,30 @@
+package Seance_1;
+import java.util.Scanner;
+
+public class Exercice_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//5-Écrire en JAVA: permutation circulaire de trois nombres
+		
+		double a, b, c, d;
+		System.out.println("Enter the first number a");
+		Scanner key_entry1 = new Scanner(System.in);
+		a = key_entry1.nextDouble();
+		System.out.println("Enter the second number b");
+		Scanner key_entry2 = new Scanner(System.in);
+		b = key_entry2.nextDouble();
+		System.out.println("Enter the third number c");
+		Scanner key_entry3 = new Scanner(System.in);
+		c = key_entry3.nextDouble();
+		
+		d = a;
+		a = b;
+		System.out.println("Now a = " +b);
+		b = c;
+		System.out.println("Now b = " +c);
+		c = d;
+		System.out.println("Now c = " +d);
+	}
+
+}
