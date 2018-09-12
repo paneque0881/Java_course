@@ -1,0 +1,18 @@
+package Seance_1;
+
+public class Exercice_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 4-Écrire en JAVA: permutation de deux nombres : permuter las valeurs des deux 
+		// variables X et Y ( passer de  X =4 et Y=10 à X=10 et Y=4)
+		
+		int x = 4, y = 10, z=0;
+		z = x;
+		x = y;
+		y = z;
+		System.out.println("Now x = " + x + " and y = " +y);
+		
+	}
+
+}
